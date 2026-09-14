@@ -1,7 +1,7 @@
-11d5defe21cd2d856c17fa2316970597 *DESCRIPTION
+9cf944018e0e3a811cbd4b819205fb5f *DESCRIPTION
 c860eb0a097449e308f3b1062d1113db *NAMESPACE
-dd62b527acc714f7b3398fd90df1505e *NEWS.md
-2942b86c936d2a60ff1b48484c0f37c6 *R/dprodcor.R
+944e10258369034e9464583878f3505a *NEWS.md
+9fc36e9f7c81001f5ce17f4f68811a02 *R/dprodcor.R
 dac01cb5b8652cd153b8f107319b7fc8 *R/estimate_R.R
 88bd887b5b880643e9c641eab1fb1f1a *R/metalcor-package.R
 38d5edc8d4a25f3a82d41a897f2fd209 *R/metalcor.R
@@ -9,12 +9,12 @@ af0511b8fe5bd6492064b4bc6ecfce67 *R/pprodcor.R
 24e64d5496e28b130dc8eaef9e1a5b04 *R/qprodcor.R
 d56af1dd5d7eda063638ca94233634f1 *R/rho_from_median.R
 19500c496f743fb9301b482288ab866b *R/rprodcor.R
-f98e1e9bb9a6357e6a14e91d20966d9d *README.md
-f468edae0b96f9755cc32d0087636c38 *build/partial.rdb
-7785309bc2cbbbd7fe60a71e9d0b32c6 *build/vignette.rds
+97e3ccc8bf91665e66f3d711b93e3fc1 *README.md
+c5260b1bae00ec1fb8d54bd1b69b28ba *build/partial.rdb
+0cd3bb665763d04472878c2e2c0f3a8b *build/vignette.rds
 a86a79ca0e138b73351e8785d2d4f87a *inst/doc/metalcor.R
 a3d9086fd51c71ecbdd258fb41d77fdf *inst/doc/metalcor.Rmd
-310900565d7b4194024130909f730532 *inst/doc/metalcor.html
+65a61227357302c11ae0e7e68f76463e *inst/doc/metalcor.html
 86b20aaff6291903d55bf918bcf01a80 *man/estimate_R.Rd
 a99a9236f0f24800dc24183323fe4945 *man/figures/logo.png
 c9915d9e59d9ac8effb4bb2b578da640 *man/metalcor-package.Rd
@@ -22,5 +22,5 @@ c9915d9e59d9ac8effb4bb2b578da640 *man/metalcor-package.Rd
 6bbbed9015ee68f9fa3a8363735a545f *man/prodcor.Rd
 17c5eb24339085d241c19f4670bcd0c6 *man/rho_from_median.Rd
 77947464a4b952b73d8a7ca83a706874 *tests/testthat.R
-4e86389111515121632153c94d05241f *tests/testthat/test-metalcor.R
+19214a5d4424850eb06be9e9baf9e657 *tests/testthat/test-metalcor.R
 a3d9086fd51c71ecbdd258fb41d77fdf *vignettes/metalcor.Rmd
