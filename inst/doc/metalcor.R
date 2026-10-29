@@ -27,19 +27,20 @@ Z <- matrix( rnorm( m * 3 ), nrow = m, ncol = 3 ) %*% L
 library(tibble)
 library(dplyr)
 study1 <- tibble(
-    id = 1 : m,
-    chr = ceiling( id / m * 10 ),
-    pos = id,
+    pos = 1 : m,
+    chr = ceiling( pos / m * 10 ),
+    ref = 'A',
+    alt = 'G',
     n = 1000,
     z = Z[, 1],
     se = runif( m, 0, 1 / sqrt( n ) ),
     beta = z * se
 )
-# this copies id/chr/pos between studies, adds study-specific info.
+# this copies chr/pos between studies, adds study-specific info.
 # note that, besides the different Z scores, there's also different sample sizes per study,
 # and standard errors scale inversely proportional to the square root of study size
 study2 <- study1 %>%
-    select( id, chr, pos) %>%
+    select( chr, pos, ref, alt ) %>%
     mutate(
         n = 2000,
         z = Z[, 2],
@@ -47,7 +48,7 @@ study2 <- study1 %>%
         beta = z * se
     )
 study3 <- study1 %>%
-    select( id, chr, pos) %>%
+    select( chr, pos, ref, alt ) %>%
     mutate(
         n = 10000,
         z = Z[, 3],

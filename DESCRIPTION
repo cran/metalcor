@@ -1,6 +1,6 @@
 Package: metalcor
 Title: Meta-Analysis of Correlated Genetic Association Studies
-Version: 1.0.2
+Version: 1.0.5
 Authors@R: c(
     person(given = "Alejandro",
 	   family = "Ochoa",
@@ -17,17 +17,17 @@ Description: The main function performs meta-analysis of genetic association stu
 License: GPL (>= 3)
 Encoding: UTF-8
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
-Imports: stats, dplyr, tibble, tidyselect
+Imports: stats, dplyr, rlang, tibble, tidyselect
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 URL: https://github.com/OchoaLab/metalcor
 BugReports: https://github.com/OchoaLab/metalcor/issues
-Config/roxygen2/version: 8.1.0
+Config/roxygen2/version: 8.1.1
 NeedsCompilation: no
-Packaged: 2026-09-14 17:36:47 UTC; viiia
+Packaged: 2026-10-29 18:19:59 UTC; viiia
 Author: Alejandro Ochoa [aut, cre] (ORCID:
     <https://orcid.org/0000-0003-4928-3403>),
   Tiffany Tu [aut] (ORCID: <https://orcid.org/0000-0002-9357-6660>)
 Maintainer: Alejandro Ochoa <alejandro.ochoa@duke.edu>
 Repository: CRAN
-Date/Publication: 2026-09-14 23:40:13 UTC
+Date/Publication: 2026-10-29 20:40:22 UTC
